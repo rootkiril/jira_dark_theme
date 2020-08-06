@@ -278,3 +278,6 @@ form.aui.recipients-form fieldset,
 header .aui-header .aui-dropdown2-trigger:hover,header .aui-header .aui-dropdown2-trigger:focus,header .aui-header .aui-dropdown2-trigger.active,header .aui-header a:hover, .aui-header a:focus {
     background-color: #1d1d1d;
 }
+.aui-dropdown2.aui-style-default {
+    border: 1px solid black;
+}
