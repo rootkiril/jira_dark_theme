@@ -44,7 +44,8 @@ li.active,
 .ui-popout-detached,
 .ghx-detail-view.gh-editable-detail-view
   .ghx-detail-contents
-  .issue-body-content {
+  .issue-body-content,
+.issue-view {
   background-color: #1d1d1d !important;
   border: none !important;
 }
@@ -58,7 +59,7 @@ body,
 .property-list .item .value,
 .issue-drop-zone__text,
 .ghx-project,
-.aui-dropdown2.aui-style-default a{
+.aui-dropdown2.aui-style-default a {
   color: #fff;
 }
 ul li.active,
@@ -71,7 +72,7 @@ h4,
 li.active,
 .jira-login-item label[for="login-form-remember-me"],
 .results-count-text,
-.results-count-text *{
+.results-count-text * {
   color: #fff !important;
 }
 nav[role="navigation"],
@@ -145,8 +146,7 @@ dt.tt_text,
   background: url("https://i.imgur.com/00Km64e.png");
   background-repeat: no-repeat;
 }
-.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-green
-{
+.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-green {
   background-color: #14892c;
   color: #ffffff;
 }
@@ -206,16 +206,8 @@ form.aui .radio > label {
   background: #303030;
   color: #2b6095;
 }
-.aui-sidebar[aria-expanded="false"]
-  .aui-sidebar-group-tier-one
-  > .aui-nav
-  > li
-  > .aui-nav-item,
-.aui-sidebar-submenu[aria-expanded="false"]
-  .aui-sidebar-group-tier-one
-  > .aui-nav
-  > li
-  > .aui-nav-item {
+.aui-sidebar[aria-expanded="false"] .aui-sidebar-group-tier-one > .aui-nav > li > .aui-nav-item,
+.aui-sidebar-submenu[aria-expanded="false"] .aui-sidebar-group-tier-one > .aui-nav > li > .aui-nav-item {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -233,13 +225,15 @@ body {
   box-shadow: none;
 }
 a[aria-selected="true"],
-.aui-dropdown2.aui-style-default:hover .aui-dropdown2-section a:not(.aui-dropdown2-disabled):hover {
+.aui-dropdown2.aui-style-default:hover
+  .aui-dropdown2-section
+  a:not(.aui-dropdown2-disabled):hover {
   background-color: black;
   color: #fff;
 }
 .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item > a,
 .aui-dropdown2.aui-style-default,
-.aui-dropdown2.aui-style-default:hover a{
+.aui-dropdown2.aui-style-default:hover a {
   background-color: #282828;
   color: #fff;
 }
@@ -261,7 +255,7 @@ a[aria-selected="true"],
 form.aui.recipients-form fieldset,
 .navigator-search,
 .navigator-body,
-.aui-dialog{
+.aui-dialog {
   background: #282828;
 }
 .recipients li:hover {
@@ -274,9 +268,13 @@ form.aui.recipients-form fieldset,
 .links-list dd:hover {
   background-color: #3a3a3a;
 }
-header .aui-header .aui-dropdown2-trigger:hover,header .aui-header .aui-dropdown2-trigger:focus,header .aui-header .aui-dropdown2-trigger.active,header .aui-header a:hover, .aui-header a:focus {
-    background-color: #1d1d1d;
+header .aui-header .aui-dropdown2-trigger:hover,
+header .aui-header .aui-dropdown2-trigger:focus,
+header .aui-header .aui-dropdown2-trigger.active,
+header .aui-header a:hover,
+.aui-header a:focus {
+  background-color: #1d1d1d;
 }
 .aui-dropdown2.aui-style-default {
-    border: 1px solid black;
+  border: 1px solid black;
 }
