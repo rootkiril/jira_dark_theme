@@ -278,3 +278,6 @@ header .aui-header a:hover,
 .aui-dropdown2.aui-style-default {
   border: 1px solid black;
 }
+.issue-header.detached {
+    box-shadow: 0 0 15px 5px #151515;
+}
